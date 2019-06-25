@@ -12,9 +12,7 @@ import lombok.Setter;
 @Builder
 public class EmployeeRankDto {
 
-	Long id;
-	String name;
-	String abbreviation;
+	Long rank;
 	LocalDate corpsDate;
 	LocalDate gradeDate;
 	LocalDate echelonDate;

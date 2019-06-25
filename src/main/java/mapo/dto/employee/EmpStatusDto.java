@@ -12,8 +12,7 @@ import lombok.Setter;
 @Builder
 public class EmpStatusDto {
 	
-	Long statusTypeId;
-	String statusType;
+	Long status;
 	LocalDate statusDate;
 	AdministrativeActDto administrativeAct;
 }
