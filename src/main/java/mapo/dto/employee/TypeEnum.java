@@ -2,6 +2,7 @@ package mapo.dto.employee;
 
 public enum TypeEnum {
 	
-	Position, Termination, Sanction, Reward, Language, Speciality, Document, Diploma
+	Position, Termination_Reason, Sanction, Reward, 
+	Language, Speciality, Document_Type, Diploma_Type
 
 }

@@ -11,8 +11,7 @@ import lombok.Setter;
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor
 @Builder
 public class JobTerminationDto {
-	Long id;
-	String name;
+	String reason;
 	LocalDate terminationDate;
 	AttachmentDto terminationAttachment;
 	

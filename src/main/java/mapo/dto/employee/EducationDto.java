@@ -12,7 +12,7 @@ import lombok.Setter;
 @Builder
 public class EducationDto {
 
-	private Long diplomaId;
+	private String diploma;
 	private Integer year;	
 	private LocalDate startDate;	
 	private LocalDate endDate;	

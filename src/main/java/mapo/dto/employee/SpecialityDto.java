@@ -9,7 +9,6 @@ import lombok.Setter;
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor
 @Builder
 public class SpecialityDto {
-	Long specialityId;
 	String specialityName;
 	Integer yearsOfExperience;	
 	String comments;

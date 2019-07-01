@@ -1,6 +1,8 @@
 package mapo.dto.employee;
 
 import java.time.LocalDate;
+import java.util.List;
+import java.util.Set;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,6 +10,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import mapo.dto.employee.plus.DocumentDto;
+import mapo.dto.employee.plus.EmployeeRankRecordDto;
+import mapo.dto.employee.plus.FingerprintDto;
+import mapo.dto.employee.plus.TrainingRecordDto;
 
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor
 @Builder @ToString(includeFieldNames=true)
@@ -42,4 +48,11 @@ public class EmployeeDto {
 	QualificationsDto qualifications;
 	EmployeeReviewDto review;
 	
+	FingerprintDto rightFingerprint;
+	FingerprintDto leftFingerprint;
+	
+	List<TrainingRecordDto> trainingRecords;
+	Set<DocumentDto> documents;
+	List<JobHistoryItemDto> jobHistory;
+	List<EmployeeRankRecordDto> rankHistory;
 }

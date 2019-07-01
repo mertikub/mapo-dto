@@ -13,4 +13,10 @@ public class RankDto {
 	Long id;
 	String name;
 	String abbreviation;
+	Integer index;
+	Long parentId;
+	String type;
+	Integer rank;
+	Integer retirementAge;
+	String code;
 }

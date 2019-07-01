@@ -19,6 +19,6 @@ public class ContactDetailsDto {
 	String email;
 	String note;
 	String emergencyContact;
-	Long zone;
-	Long region;
+	String zone;
+	String region;
 }
