@@ -1,4 +1,4 @@
-package mapo.dto.employee;
+package mapo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,4 +12,7 @@ public class RegionDto {
 	
 	Long id;
 	String name;
+	String abbreviation;
+	@Builder.Default
+	boolean active = true;
 }

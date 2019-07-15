@@ -16,7 +16,7 @@ public class TrainingRecordDto {
 	String courseCode;
 	LocalDate startDate;
 	LocalDate endDate;
-	String region;
+	Long regionId;
 	String description;
 	String sponsor;
 	String employeeId;

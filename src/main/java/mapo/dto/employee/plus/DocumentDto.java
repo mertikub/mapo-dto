@@ -12,7 +12,7 @@ import mapo.dto.employee.AttachmentDto;
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor
 @Builder
 public class DocumentDto {
-	String docType;
+	Long docTypeId;
 	LocalDate dateAdded;
 	String comments;
 	AttachmentDto attachment;

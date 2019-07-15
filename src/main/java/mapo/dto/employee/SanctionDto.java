@@ -13,7 +13,7 @@ import lombok.Setter;
 public class SanctionDto {
 	String comments;
 	String motive;
-	String sanctionName;
+	Long sanctionId;
 	LocalDate date;
 	Integer numberOfStopDays;
 }

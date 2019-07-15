@@ -1,4 +1,4 @@
-package mapo.dto.employee;
+package mapo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,4 +12,8 @@ public class ZoneDto {
 
 	Long id;
 	String name;
+	String abbreviation;
+	Long regionId;
+	@Builder.Default
+	boolean active = true;
 }

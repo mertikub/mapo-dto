@@ -14,5 +14,5 @@ public class RewardDto {
 	private String comments;	
 	private String motive;
 	private LocalDate date;
-	String rewardName;
+	Long rewardId;
 }
