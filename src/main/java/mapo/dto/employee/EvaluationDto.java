@@ -12,7 +12,7 @@ import lombok.Setter;
 @Builder
 public class EvaluationDto {
 	private Integer rawScore;
-	private Integer rating;
+	private String rating;
 	private Integer year;	
 	private LocalDate evaluationDate;	
 	private LocalDate effectiveStartDate;	

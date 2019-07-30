@@ -11,6 +11,10 @@ import lombok.ToString;
 @Builder @AllArgsConstructor @ToString
 public class EmployeePostResponse {
 	
+	public static final String OK = "ok";
+	public static final String DUPLICATE = "duplicate";
+	public static final String ERROR = "error";	
+	
 	String status;
 	EmployeeMatchDto employeeMatch;
 	String message;

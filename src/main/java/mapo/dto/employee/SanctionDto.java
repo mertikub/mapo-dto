@@ -16,4 +16,6 @@ public class SanctionDto {
 	Long sanctionId;
 	LocalDate date;
 	Integer numberOfStopDays;
+
+	AdministrativeActDto administrativeAct;
 }
