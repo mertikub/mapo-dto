@@ -12,4 +12,7 @@ public class FingerprintDto {
 	private byte[] image;
 	private byte[] templateSG400;
 	private String templateSourceAfis;
+	
+	private int imageQuality;
+	private boolean  isValid;
 }

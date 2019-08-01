@@ -13,7 +13,7 @@ import mapo.dto.employee.AdministrativeActDto;
 @Builder
 public class TrainingRecordDto {
 
-	String courseCode;
+	Long courseId;
 	LocalDate startDate;
 	LocalDate endDate;
 	Long regionId;
