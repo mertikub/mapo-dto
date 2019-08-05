@@ -1,22 +1,22 @@
-package mapo.dto.employee;
+package mapo.dto.organization;
 
 import java.time.LocalDate;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter @Setter @AllArgsConstructor @NoArgsConstructor
-@Builder
+@Data @NoArgsConstructor
+@Builder @AllArgsConstructor
 public class OrganizationDto {
 
 	Long id;
 	String name;
 	String type;
-	OrganizationDto parent;
+	Long parentId;
 	LocalDate effectiveStartDate;
 	LocalDate effectiveEndDate;
-	JobPositionDto chief;
+	Long regionId;
+	
 }
