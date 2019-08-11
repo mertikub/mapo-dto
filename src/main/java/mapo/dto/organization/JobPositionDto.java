@@ -1,8 +1,6 @@
 package mapo.dto.organization;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,17 +9,23 @@ import lombok.NoArgsConstructor;
 
 @Data @NoArgsConstructor
 @Builder @AllArgsConstructor
-public class OrganizationDto {
+public class JobPositionDto {
 
 	Long id;
-	String name;
-	String type;
-	Long parentId;
+	Long realId;
+	String description;
+	Long positionId;
+	Long rankId;
 	LocalDate effectiveStartDate;
 	LocalDate effectiveEndDate;
-	Long regionId;
-	Long realId;
+	String status;
 	
-	@Builder.Default
-	List<JobPositionDto> jobPositions = new ArrayList<JobPositionDto>();
+	//Job
+	String agentId;
+	LocalDate effectiveJobStartDate;
+	LocalDate effectiveJobEndDate;
+	String comments;
+	String serviceWeapon;
+	String serviceCertification;
+	
 }
