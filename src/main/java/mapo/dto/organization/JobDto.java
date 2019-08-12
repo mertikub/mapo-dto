@@ -10,17 +10,12 @@ import lombok.ToString;
 
 @Data @NoArgsConstructor
 @Builder @AllArgsConstructor @ToString
-public class JobPositionDto {
+public class JobDto {
 
-	Long id;
-	Long realId;
-	String description;
-	Long positionId;
-	Long rankId;
-	LocalDate effectiveStartDate;
-	LocalDate effectiveEndDate;
-	String status;
-	
-	JobDto job;
-	
+	String agentId;
+	LocalDate effectiveJobStartDate;
+	LocalDate effectiveJobEndDate;
+	String comments;
+	String serviceWeapon;
+	String serviceCertification;
 }

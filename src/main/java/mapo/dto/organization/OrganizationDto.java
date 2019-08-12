@@ -8,9 +8,10 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Data @NoArgsConstructor
-@Builder @AllArgsConstructor
+@Builder @AllArgsConstructor @ToString
 public class OrganizationDto {
 
 	Long id;
