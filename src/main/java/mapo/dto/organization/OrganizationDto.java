@@ -25,4 +25,6 @@ public class OrganizationDto {
 	
 	@Builder.Default
 	List<JobPositionDto> jobPositions = new ArrayList<JobPositionDto>();
+	
+	JobPositionDto chief;
 }

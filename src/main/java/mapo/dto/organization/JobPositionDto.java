@@ -21,6 +21,8 @@ public class JobPositionDto {
 	LocalDate effectiveEndDate;
 	String status;
 	
+	Long reportingToId;
+	
 	JobDto job;
 	
 }
